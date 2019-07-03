@@ -1,0 +1,92 @@
+.img-item
+{
+    
+}
+
+
+.item
+{
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.item-caption
+{
+    position:absolute;
+    bottom:30px;
+    padding: 20px;
+    left: 10%;
+    background-color: #fff;
+    width: 80%;
+}
+
+
+.lightbox-container
+{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    display: none;
+}
+
+.lightbox-img
+{
+    height:550px;
+    background-size: 100% 100%;
+    margin-top:40px; 
+}
+
+
+.lightbox-inner
+{
+    position: relative;
+}
+
+#close
+{
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#next
+{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    font-size:30px;
+    cursor: pointer;
+}
+
+#prev
+{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    font-size:30px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
